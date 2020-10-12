@@ -4,24 +4,24 @@ import abc
 class Polygon(metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def height(self):
-        pass
+        raise NotImplementedError
 
     @abc.abstractmethod
     def height(self, height: float):
-        pass
+        raise NotImplementedError
 
     @abc.abstractmethod
     def width(self):
-        pass
+        raise NotImplementedError
 
     @abc.abstractmethod
     def width(self, width: float):
-        pass
+        raise NotImplementedError
 
     @abc.abstractmethod
     def multiply(self, multiplier: float) -> None:
-        pass
+        raise NotImplementedError
 
     @abc.abstractmethod
     def area(self) -> float:
-        pass
+        raise NotImplementedError
