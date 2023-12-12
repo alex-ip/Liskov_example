@@ -30,6 +30,9 @@
           "@id": "Liskov_substitution_demo.ipynb"
         },
         {
+          "@id": "CITATION.cff"
+        },
+        {
           "@id": "liskov_conformance/__main__.py"
         },
         {
@@ -98,8 +101,14 @@
       "description": "A Jupyter notebook demonstrating the Liskov substitution principle"
     },
     {
+      "@id": "CITATION.cff",
+      "@type": "File",
+      "description": "Citation details"
+    },
+    {
       "@id": "liskov_conformance/__main__.py",
-      "@type": "File"
+      "@type": "File",
+      "description": "Main routines to allow command line execution of liskov_conformance examples"
     },
     {
       "@id": "liskov_conformance/polygon.py",
@@ -115,11 +124,13 @@
     },
     {
       "@id": "liskov_conformance/__init__.py",
-      "@type": "File"
+      "@type": "File",
+      "description": "Class implementation for a framework which conforms to the Liskov substitution principle"
     },
     {
       "@id": "liskov_badness/__main__.py",
-      "@type": "File"
+      "@type": "File",
+      "description": "Main routines to allow command line execution of liskov_badness examples"
     },
     {
       "@id": "liskov_badness/rectangle.py",
@@ -131,7 +142,8 @@
     },
     {
       "@id": "liskov_badness/__init__.py",
-      "@type": "File"
+      "@type": "File",
+      "description": "Class implementation for a framework which violates the Liskov substitution principle"
     },
     {
       "@id": "https://orcid.org/0000-0001-8937-8904",
