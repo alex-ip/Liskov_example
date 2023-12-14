@@ -27,7 +27,13 @@
           "@id": "README.md"
         },
         {
+          "@id": "resources.yml"
+        },
+        {
           "@id": "Liskov_substitution_demo.ipynb"
+        },
+        {
+          "@id": "environment.yml"
         },
         {
           "@id": "CITATION.cff"
@@ -83,6 +89,12 @@
       "downloadUrl": "https://github.com/alex-ip/Liskov_example/archive/refs/heads/main.zip",
       "softwareHelp": {
         "@id": "README.md"
+      },
+      "availableOnDevice": {
+        "@id": "resources.yml"
+      },
+      "softwareRequirements": {
+        "@id": "environment.yml"
       }
     },
     {
@@ -96,9 +108,19 @@
       "@type": "File"
     },
     {
+      "@id": "resources.yml",
+      "@type": "File",
+      "description": "Hardware requirements for Jupyter notebook"
+    },
+    {
       "@id": "Liskov_substitution_demo.ipynb",
       "@type": "File",
       "description": "A Jupyter notebook demonstrating the Liskov substitution principle"
+    },
+    {
+      "@id": "environment.yml",
+      "@type": "File",
+      "description": "Software dependencies for conda Python environment"
     },
     {
       "@id": "CITATION.cff",
